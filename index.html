@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pagina Tecnolochicas 2023</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        h1{
+color: blue;
+        }
+        h3{
+        color: green;
+
+        }
+        p{
+            color: coral;
+        }
+    </style>
+
+</head>
+ <body> 
+    <h1>Pasteleria</h1> 
+    <h2>!Hola Mundo!</h2>
+    <h3>!Hola Mundo!</h3>
+    <h4>!Hola Mundo1</h4>
+    <h5>!Hola Mundo!</h5>
+    <h6>!Hola Mundo</h6>
+<h1 style ="color: aqua;">Pasteleria</h1>
+<h1 id ="Pasteleria"> Pasteleria</h1>
+<main>
+<h3>imagenes de ellos</h3>
+<img src="C:\Users\LABII-PC09\Pictures\pastelero.webp" alt=" pastelero"> 
+<img src="C:\Users\LABII-PC09\Pictures\pastel.jpg" alt="pastel">
+<hr> <!--Etiqueta hr = Horizontal Rule-->
+
+        <h3>Listas de Pasteles</h3>
+
+
+        <div> <!--Elemento div-->
+            <p> sabores que mas<strong> aman </strong>:</p> <!--strong para hacer la letra negrita-->
+            <!--em para hacer la letra cursiva-->
+            <p><em>Listas hechas por Lizbeth Dominguez</em></p> 
+            <!--Listas no ordenadas-->
+            <!--ul = unordered list-->
+                <ul id="lista-de-Sabores"> 
+                    <li>chocolate</li> <!--li = list item-->
+                    <li>3 leches</li> 
+                    <li>fresa</li> 
+                </ul> 
+                <img src="C:\Users\LABII-PC09\Pictures\chocolate-facil.jpg" alt="chocolate-facil" 
+                id="imagen-de-chocolate-facil"> <!--imagen desde nuestro dispositivo-->
+                <img src="https://www.la-cocina-mexicana.com/base/stock/Recipe/1445-image/1445-image_web.jpg.webp" alt="Pastel tres leches - Recetas de México">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAgV5OiSRUOBSLyHMsx4EDer__9wZM9aRMag&usqp=CAU" alt="Tarta de nata con fresas (sin horno) ¡Irresistiblemente cremosa!">
+
+                
+                <p>Sabores que mas <strong>odian</strong>:</p>
+                <!--Listas ordenadas-->
+                <ol class="lista-de-Sabores"> <!--ol = ordered list-->
+                    <li>limon</li> <!--li = list item-->
+                    <li><s>pistache</s></li> <!--Etiqueta 's' para texto tachado-->
+                    <li>caramelo</li> 
+                </ol> 
+        </div>
+            <img src="C:\Users\LABII-PC09\Pictures\limon.jpg" alt="limon" class="imagen-de-limon"> <!--imagen desde nuestro dispositivo-->
+        <br>
+
+         <!--Crear enlaces internos / Enlaces a Secciones Internas-->
+
+         <a href="#pateles Deleciosos1">Pasteles Deliciosos 1</a>
+         <a href="#parrafo-2">Párrafo 2</a>
+         <a href="#parrafo-3">Párrafo 3</a>
+         <a href="#parrafo-4">Parráfo 4</a>
+
+        <h3 id="parrafo-1">Párrafo 1</h3>
+        <p>Texto</p>
+
+        <h3 id="parrafo-2">Párrafo 2</h3>
+        <p>Texto</p>
+
+        <h3 id="parrafo-3">Párrafo 3</h3>
+        <p>Texto</p>
+
+        <h3 id="parrafo-4">Párrafo 4</h3>
+        <p>Texto</p>
+         <!--Crear enlaces externos-->
+        <p>En este link <a href="https://www.google.com/search?q=pasteles+&tbm=isch&ved=2ahUKEwib1ZrFupmCAxUp3skDHTlrB9IQ2-cCegQIABAA&oq=pasteles+&gs_lcp=CgNpbWcQAzIHCAAQigUQQzIHCAAQigUQQzIICAAQgAQQsQMyBwgAEIoFEEMyCAgAEIAEELEDMgcIABCKBRBDMgUIABCABDIFCAAQgAQyCAgAEIAEELEDMgUIABCABDoKCAAQigUQsQMQQzoLCAAQgAQQsQMQgwFQnAdYjhtg8DJoAHAAeAGAAeUBiAGRDZIBBjAuMTIuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=VV49ZdvWCKm8p84PudadkA0&bih=963&biw=1920#imgrc=EPFhPUkYeLBBZM" target="_blank" rel="noopener noreferrer">puedes ver más imágenes de pasteles.</a></p>
+
+
+        <!--Enlaces con imágenes-->
+        <a href= "C:\Users\LABII-PC09\Pictures\el-mejor-pastel-de-chocolate_24bd9cda_1200x1200.jpg"
+        target="_blank"><img src="C:\Users\LABII-PC09\Pictures\el-mejor-pastel-de-chocolate_24bd9cda_1200x1200.jpg" alt="el-mejor-pastel-de-chocolate_24bd9cda_1200x1200.jpg" id></a>
+
+        <img src="descargar.jpg" alt="" id="imagen-con-padding">
+
+        <!--Crear enlaces con #. Enlaces muertos o dead links-->
+        <p>Visita nuestro <a href="#" rel="noopener noreferrer">nuevo sitio web aquí</a></p>
+
+            <!--Formulario-->
+            <form action="/enviar-respuesta">
+                <!--Texto y botón enviar-->
+                <input type="text" placeholder="URL" required>
+                <br>
+                <button type="submit">Enviar</button>
+               
+                <!--Botones de radio-->
+                <p>¿Como te gustaria tu pastel?</p>
+                    <label for="chico">
+                        <input id="chico" type="radio" value="chico" name="chico-grande" checked>Chico
+                    </label>
+                    <br>
+                    <label for="Grande">
+                        <input id="Grande" type="radio" value="Grande" name="chico-grande">Grande
+                    </label>
+                    <br>
+
+
+                <!--Casillas de verificación-->
+                <p>¿Qué sabor te gustaria?</p>
+                <label for="chocolate">
+                    <input id="chocolate" type="checkbox" value="chocolate" name="personalidad" checked> Chocolate
+                </label>
+                <br>
+                <label for="fresa">
+                    <input id="fresa" type="checkbox" value="fresa" name="personalidad"> Fresa
+                </label>
+                <br>
+                <label for="3tres leches">
+                    <input id="3 tres leches" type="checkbox" value="3 tres leches" name="personalidad"> 3 Tres Leches
+                </label>
+                <br>         
+            </form>
+        </main>
+        <!--pie de página-->
+        <footer>
+            <!--Etiqueta small para que el pie de página se vea más pequeño-->
+            <p><small>derechos de autor - <a href="https://tecnolochicas.mx/" target="_blank">tecnolochicas.mx</a></small></p>
+        </footer>
+</body>
+</html>
